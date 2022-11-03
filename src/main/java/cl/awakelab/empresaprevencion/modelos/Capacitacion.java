@@ -1,62 +1,97 @@
 package cl.awakelab.empresaprevencion.modelos;
 
-public class Capacitacion extends Eventos{
+public class Capacitacion {
 
     private int idCapacitacion;
-    private String duracion;
-    private Integer cantidadParticipantes;
+
+    private String nombreCapacitacion;
+
+    private String EmpresaCapacitacion;
+
+    private String fechaCapacitacion;
+
+    private String ciudadCapacitacion;
+
+    private Integer participantesCapacitacion;
 
 
     public Capacitacion() {
     }
 
-    public Capacitacion(int idEvento, Integer rutCliente, String dia, String hora, String lugar, int idCapacitacion, String duracion, int cantidadParticipantes) {
-        super(idEvento, rutCliente, dia, hora, lugar);
+    public Capacitacion(int idCapacitacion, String nombreCapacitacion, String empresaCapacitacion, String fechaCapacitacion, String ciudadCapacitacion, Integer participantesCapacitacion) {
         this.idCapacitacion = idCapacitacion;
-        this.duracion = duracion;
-        this.cantidadParticipantes = cantidadParticipantes;
+        this.nombreCapacitacion = nombreCapacitacion;
+        EmpresaCapacitacion = empresaCapacitacion;
+        this.fechaCapacitacion = fechaCapacitacion;
+        this.ciudadCapacitacion = ciudadCapacitacion;
+        this.participantesCapacitacion = participantesCapacitacion;
+    }
+
+    public Capacitacion(String nombreCapacitacion, String empresaCapacitacion, String fechaCapacitacion, String ciudadCapacitacion, Integer participantesCapacitacion) {
+        this.nombreCapacitacion = nombreCapacitacion;
+        EmpresaCapacitacion = empresaCapacitacion;
+        this.fechaCapacitacion = fechaCapacitacion;
+        this.ciudadCapacitacion = ciudadCapacitacion;
+        this.participantesCapacitacion = participantesCapacitacion;
     }
 
     public int getIdCapacitacion() {
         return idCapacitacion;
     }
 
+    public String getNombreCapacitacion() {
+        return nombreCapacitacion;
+    }
+
+    public String getEmpresaCapacitacion() {
+        return EmpresaCapacitacion;
+    }
+
+    public String getFechaCapacitacion() {
+        return fechaCapacitacion;
+    }
+
+    public String getCiudadCapacitacion() {
+        return ciudadCapacitacion;
+    }
+
+    public Integer getParticipantesCapacitacion() {
+        return participantesCapacitacion;
+    }
+
     public void setIdCapacitacion(int idCapacitacion) {
         this.idCapacitacion = idCapacitacion;
     }
 
-    public String getDuracion() {
-        return duracion;
+    public void setNombreCapacitacion(String nombreCapacitacion) {
+        this.nombreCapacitacion = nombreCapacitacion;
     }
 
-    public void setDuracion(String duracion) {
-        this.duracion = duracion;
+    public void setEmpresaCapacitacion(String empresaCapacitacion) {
+        EmpresaCapacitacion = empresaCapacitacion;
     }
 
-    public int getCantidadParticipantes() {
-        return cantidadParticipantes;
+    public void setFechaCapacitacion(String fechaCapacitacion) {
+        this.fechaCapacitacion = fechaCapacitacion;
     }
 
-    public void setCantidadParticipantes(Integer cantidadParticipantes) {
-        this.cantidadParticipantes = cantidadParticipantes;
+    public void setCiudadCapacitacion(String ciudadCapacitacion) {
+        this.ciudadCapacitacion = ciudadCapacitacion;
+    }
+
+    public void setParticipantesCapacitacion(Integer participantesCapacitacion) {
+        this.participantesCapacitacion = participantesCapacitacion;
     }
 
     @Override
     public String toString() {
         return "Capacitacion{" +
                 "idCapacitacion=" + idCapacitacion +
-                ", duracion='" + duracion + '\'' +
-                ", cantidadAsistentes=" + cantidadParticipantes +
-                ", rutCliente=" + getRutCliente() +
-                ", dia='" + getDia() + '\'' +
-                ", hora='" + getHora() + '\'' +
-                ", lugar='" + getLugar() + '\'' +
-                "} " + super.toString();
+                ", nombreCapacitacion='" + nombreCapacitacion + '\'' +
+                ", EmpresaCapacitacion='" + EmpresaCapacitacion + '\'' +
+                ", fechaCapacitacion='" + fechaCapacitacion + '\'' +
+                ", ciudadCapacitacion='" + ciudadCapacitacion + '\'' +
+                ", participantesCapacitacion=" + participantesCapacitacion +
+                '}';
     }
-
-    public String mostrarDetalle(){
-        return "la capacitacion sera en " + getLugar()+ "a las " + getHora() + " del dia " + getDia() + "y durara " + getDuracion();
-    }
-
-
 }

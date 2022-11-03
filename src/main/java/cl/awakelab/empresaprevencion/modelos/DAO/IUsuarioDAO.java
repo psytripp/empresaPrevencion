@@ -12,7 +12,7 @@ public interface IUsuarioDAO {
             public Usuario readOne (int id);
             public void update (Usuario u);
             public void delete (int id);
-            public void delete (Usuario u);
+
 
 
 

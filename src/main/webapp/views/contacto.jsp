@@ -8,63 +8,67 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="/empresaCapacitacion/CSS/estilos.css"/>
-        <title>JSP Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CONTACTO</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <style>
+
+            body {
+                background-image: url(https://wallpaperaccess.com/full/3398643.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                color: azure;
+            }
+
+        </style>
         
     </head>
     <body>
-        <div class="row">
-        <div class="col-3 col-s-3 menu">
-            <ul>
-                <li><a href="inicio">Inicio</a></li>
-                <li><a href="crearcapacitacion">Crear capacitaciones</a></li>
-                <li><a href="crearusuario">Crear usuarios</a></li>
-                <li><a href="contacto">Contacto</a></li>
-                <li><a href="login">Login</a></li>
-            </ul>
-        </div>
-   
-        
-     <div class="container">
+    <%@include file="header.jsp"%>
+    <%@include file="barranav.jsp"%>
+
+
+    <div class="container col-8 justify-content-center">
     <div class="row">
         <div class="col-md-12">
             <div class="well well-sm">
                 <form class="form-horizontal" method="post">
                     <fieldset>
-                        <legend class="text-center header">Contact us</legend>
+                        <legend class="text-center header">Contactanos</legend>
 
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                             <div class="col-md-8">
-                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                                <input id="fname" name="name" type="text" placeholder="Nombres" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                             <div class="col-md-8">
-                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                                <input id="lname" name="name" type="text" placeholder="Apellidos" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
                             <div class="col-md-8">
-                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                <input id="email" name="email" type="text" placeholder="Correo electronico" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
                             <div class="col-md-8">
-                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
                             <div class="col-md-8">
-                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                                <textarea class="form-control" id="message" name="message" placeholder="Indicanos previamente si eres facilitador o alumno, a continuacion comentanos en que podemos ayudarte :)" rows="7"></textarea>
                             </div>
                         </div>
 
@@ -79,8 +83,9 @@
         </div>
     </div>
 </div>
-            
-            
-            
- </body>
+
+    <%@include file="footer.jsp" %>
+
+
+    </body>
 </html>

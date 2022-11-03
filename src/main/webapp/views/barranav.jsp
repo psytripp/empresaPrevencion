@@ -1,16 +1,17 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: migue
-  Date: 13-10-2022
-  Time: 21:42
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
-</html>
+
+<nav>
+  <div style="text-align: center"  class="container row col-12 justify-content-center">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-item" href="inicio">INICIO </a>
+        <a class="nav-item" href="crearcapacitacion">CREAR CAPACITACION</a>
+        <a class="nav-item" href="crearusuario"> CREAR USUARIO</a>
+        <a class="nav-item" href="login">LOGIN</a>
+        <a class="nav-item" href="contacto">CONTACTO</a>
+        <a class="nav-item" href="usuarios">USUARIOS REGISTRADOS</a>
+        <a class="nav-item" href="capacitaciones">CAPACITACIONES DISPONIBLES</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+

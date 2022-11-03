@@ -1,77 +1,69 @@
-<%-- 
-    Document   : crearCapacitacion
-    Created on : 06-10-2022, 21:19:42
-    Author     : Rodrigo
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="/empresaCapacitacion/CSS/estilos.css"/>
-        <title>JSP Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>REGISTRATE TU CAPACITACION AQUI</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <style>
+
+            body {
+                background-image: url(https://wallpaperaccess.com/full/3398643.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                color: azure;
+            }
+
+        </style>
     </head>
+
     <body>
-        <nav>
-        <div class="row">
-        <div class="col-3 col-s-3 menu">
-            <ul>
-                <li><a href="inicio">Inicio</a></li>
-                <li><a href="crearcapacitacion">Crear capacitaciones</a></li>
-                <li><a href="crearusuario">Crear usuarios</a></li>
-                <li><a href="contacto">Contacto</a></li>
-                <li><a href="login">Login</a></li>
-            </ul>
-        </div>
-        </nav>
-    
-    <section>        
-    <form>
-        
-        <div class="form-group"> <!-- Full Name -->
-            <label for="full_name_id" class="control-label">Full Name</label>
-            <input type="text" class="form-control" id="full_name_id" name="Nombre" placeholder="Miguel Angel">
-        </div>    
+    <%@include file="header.jsp" %>
+    <%@include file="barranav.jsp" %>
 
-        <div class="form-group"> <!-- Street 1 -->
-            <label for="street1_id" class="control-label">Street Address 1</label>
-            <input type="text" class="form-control" id="street1_id" name="Direccion" placeholder="Street address, P.O. box, company name, c/o">
-        </div>                    
+        <div class="container">
 
-        <div class="form-group"> <!-- Street 2 -->
-            <label for="street2_id" class="control-label">Street Address 2</label>
-            <input type="text" class="form-control" id="street2_id" name="street2" placeholder="Apartment, suite, unit, building, floor, etc.">
-        </div>    
+            <form action="crearcapacitacion" method="post">
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationDefault01">Nombre Capacitacion:</label>
+                        <input type="text" name="nombreCapacitacion" class="form-control" id="validationDefault01" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationDefault02">Empresa Capacitacion:</label>
+                        <input type="text" name="empresaCapacitacion" class="form-control" id="validationDefault02"  required>
+                    </div>
+                </div>
 
-        <div class="form-group"> <!-- City-->
-            <label for="city_id" class="control-label">City</label>
-            <input type="text" class="form-control" id="city_id" name="city" placeholder="Smallville">
-        </div>                                    
+                <div class="col-md-6 mb-3">
+                    <label for="validationDefault03">Fecha Capacitacion:</label>
+                    <input type="date" name="fechaCapacitacion" class="form-control" id="validationDefault03" >
+                </div>
 
-        <div class="form-group"> <!-- State Button -->
-            <label for="state_id" class="control-label">State</label>
-            <select class="form-control" id="state_id">
-                <option value="AR">Arica</option>
-                <option value="LS">La Serena</option>
-                <option value="SCL">Santiago</option>
-                <option value="CON">Concepcion</option>
-                <option value="PM">Puerto Montt</option>
-            </select>                    
+                <div class="col-md-3 mb-3">
+                    <label for="validationDefault04">Ciudad Capacitacion</label>
+                    <select class="custom-select" name="ciudadCapacitacion" id="validationDefault04" required>
+                        <option selected disabled value="">Seleccione...</option>
+                        <option>Antofagasta</option>
+                        <option>Santiago</option>
+                        <option>Concepcion</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="validationDefault05">Cantidad Participantes Capacitacion</label>
+                    <input type="text" name="cantidadCapacitacion" class="form-control" id="validationDefault05" >
+                </div>
+
+                <button class="btn btn-info" type="submit">Registrar</button>
+            </form>
         </div>
 
-        <div class="form-group"> <!-- Zip Code-->
-            <label for="zip_id" class="control-label">Zip Code</label>
-            <input type="text" class="form-control" id="zip_id" name="zip" placeholder="#####">
-        </div>        
+        <%@include file="footer.jsp" %>
 
-        <div class="form-group"> <!-- Submit Button -->
-            <button type="submit" class="btn btn-primary">Buy!</button>
-        </div>     
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
-    </form>
-    </section>
-       
-       
- </body>
+    </body>
 </html>
