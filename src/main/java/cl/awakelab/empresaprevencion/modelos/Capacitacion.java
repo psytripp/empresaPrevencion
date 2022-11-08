@@ -1,6 +1,6 @@
 package cl.awakelab.empresaprevencion.modelos;
 
-public class Capacitacion {
+public class Capacitacion extends Evento {
 
     private int idCapacitacion;
 

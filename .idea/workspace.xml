@@ -9,53 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b67e71e9-d594-4a2a-b71d-adca092a00d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/DAO/CapacitacionDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/CapacitacionesServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/EliminarCapacitacionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/EliminarUsuarioServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/capacitaciones.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/empresaPrevencion_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/empresaPrevencion_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="b67e71e9-d594-4a2a-b71d-adca092a00d1" name="Changes" comment="proyecto final">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/Asesoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/Evento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/HelloServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/Capacitacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/Capacitacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/Conexion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/ConexionSingletonMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/ConexionSingletonMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/DAO/ICapacitacionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/DAO/ICapacitacionDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/DAO/IUsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/DAO/IUsuarioDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/DAO/UsuarioDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/DAO/UsuarioDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/Eventos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/Iasesoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/ContactoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/ContactoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/CrearCapactiacionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/CrearCapactiacionServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/CrearUsuarioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/CrearUsuarioServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/InicioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/InicioServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/UsuariosServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/servlets/UsuariosServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/barranav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/barranav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/contacto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/contacto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/crearCapacitacion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/crearCapacitacion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/crearUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/crearUsuario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/usuarios.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/usuarios.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/DAO/CapacitacionDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/awakelab/empresaprevencion/modelos/DAO/CapacitacionDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,8 +296,29 @@
       <workItem from="1666982450706" duration="8000" />
       <workItem from="1666984262537" duration="2694000" />
       <workItem from="1667512498126" duration="1646000" />
-      <workItem from="1667515037325" duration="2837000" />
+      <workItem from="1667515037325" duration="4748000" />
+      <workItem from="1667532004200" duration="3000" />
+      <workItem from="1667536137286" duration="3692000" />
+      <workItem from="1667576869787" duration="10039000" />
+      <workItem from="1667591579580" duration="367000" />
+      <workItem from="1667947476800" duration="1599000" />
+      <workItem from="1667951473387" duration="302000" />
     </task>
+    <task id="LOCAL-00001" summary="proyecto final">
+      <created>1667518344915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667518344915</updated>
+    </task>
+    <task id="LOCAL-00002" summary="proyecto final">
+      <created>1667518364200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667518364200</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,5 +334,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="proyecto final" />
+    <option name="LAST_COMMIT_MESSAGE" value="proyecto final" />
   </component>
 </project>

@@ -2,7 +2,6 @@ package cl.awakelab.empresaprevencion.modelos.DAO;
 
 import cl.awakelab.empresaprevencion.modelos.Capacitacion;
 import cl.awakelab.empresaprevencion.modelos.ConexionSingletonMySQL;
-import cl.awakelab.empresaprevencion.modelos.Usuario;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -71,7 +70,7 @@ public class CapacitacionDAOImpl implements ICapacitacionDAO {
 
     @Override
     public Capacitacion readOne(int idCapacitacion) {
-        String sql = "select select idCapacitacion, nombreCapacitacion, empresaCapacitacion, fechaCapacitacion, ciudadCapacitacion, cantidadCapacitacion from capacitacion where idCapacitacion = '"+ idCapacitacion +"'";
+        String sql = "select idCapacitacion, nombreCapacitacion, empresaCapacitacion, fechaCapacitacion, ciudadCapacitacion, cantidadCapacitacion from capacitacion where idCapacitacion = '"+ idCapacitacion +"'";
         Capacitacion c = null;
 
         try {
